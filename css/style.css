@@ -1,20 +1,36 @@
 body {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
+}
+
+h2 {
+  display: inline;
 }
 
 .cell {
-    width: 40px;
-    height: 40px;
-    text-align: center;
+  width: 40px;
+  height: 40px;
+  text-align: center;
 }
 .cell img {
-    width: 25px;
-    height: auto;
+  width: 25px;
+  height: auto;
 }
 .floor {
-    background-color: gray;
+  background-color: gray;
 }
 .wall {
-    background-color: brown;
+  background-color: brown;
+}
+.hide {
+  display: none;
+}
+.restart-btn {
+  background-color: chartreuse;
+  position: relative;
+  left: 22.5%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: x-large;
 }

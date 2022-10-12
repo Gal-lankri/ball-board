@@ -9,6 +9,10 @@
 
 <body onkeyup="handleKey(event)" onload="initGame()">
     <h1>Collect those Balls</h1>
+    <div class="restart-btn-container">
+        <h2 class="score">Score:</h2>
+        <button class="restart-btn hide" onclick="initGame()">Restart</button>
+    </div>
     <table>
         <tbody class="board"></tbody>
     </table>
